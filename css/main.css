@@ -8,11 +8,6 @@
 body {
     font-family: "Nunito", sans-serif;
     font-size: 16px;
-    /* background-image: url(../images/background/salt-lake-temple.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    backdrop-filter:blur(10px) */
 }
 
 /* ------------------------Logo , Social Media, Menu Button-------------------------- */
@@ -56,11 +51,43 @@ button#nav-btn {
 
 /* -------------Site Name---------- */
 .site-name-container {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(209, 204, 204, 0.9);
     padding: 10px;
 }
 
 .site-name {
     text-align: center;
     font-size: 1.5rem;
+}
+
+/* ------- Main Navigation (Menu) ------ */
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+    padding: .6rem 1.5vw;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    transition: all 0.2s ease-out;
+}
+
+nav ul li a:hover {
+    background-color: rgb(60, 110, 79);
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav {
+    background-color: rgb(6, 65, 28);
 }
