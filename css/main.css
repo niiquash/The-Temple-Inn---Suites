@@ -15,4 +15,37 @@ body {
     backdrop-filter:blur(2px) */
 }
 
-/* ------------------------Logo Container Area-------------------------- */
+/* ------------------------Logo , Social Media, Menu Button-------------------------- */
+.logo-social-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    min-width: 100%;
+    background-color: rgb(43, 28, 184)
+}
+
+.logo {
+    width: 20%;
+    border: 2px solid white;
+}
+
+.fab {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+button#nav-btn {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.social-nav-btns {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
