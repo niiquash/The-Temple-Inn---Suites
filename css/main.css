@@ -1,0 +1,18 @@
+/* -----------------Small CSS------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    /* background-image: url(../images/background/salt-lake-temple.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    backdrop-filter:blur(2px) */
+}
+
+/* ------------------------Logo Container Area-------------------------- */
