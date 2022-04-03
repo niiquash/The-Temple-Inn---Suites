@@ -1,4 +1,4 @@
-/* -----------------Small CSS------------------- */
+/* ----------------------------------------------Small CSS---------------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ button#nav-btn {
     gap: 10px;
 }
 
-/* -------------Site Name---------- */
+/* -----------------------------------Site Name----------------------------------- */
 .site-name-container {
     background-color: rgba(209, 204, 204, 0.9);
     padding: 10px;
@@ -60,7 +60,7 @@ button#nav-btn {
     font-size: 1.5rem;
 }
 
-/* ------- Main Navigation (Menu) ------ */
+/* --------------------------- Main Navigation (Menu) ------------------------- */
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
@@ -90,4 +90,24 @@ nav ul.open {
 
 nav {
     background-color: rgb(6, 65, 28);
+}
+
+/* --------------------------- Footer ------------------------- */
+.footer-logo {
+
+}
+
+.main-footer-container {
+
+}
+
+footer .footer-email-number-map a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(6, 65, 28);
+    color: white;
+    padding: 5px;
 }
