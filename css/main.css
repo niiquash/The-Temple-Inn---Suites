@@ -60,6 +60,13 @@ button#nav-btn {
     font-size: 1.5rem;
 }
 
+/* --------------Date------------ */
+#today-date {
+    text-align: center;
+    font-weight: bold;
+    border: 2px double grey;
+    margin: 0;
+}
 /* --------------------------- Main Navigation (Menu) ------------------------- */
 nav ul li a {
     text-decoration: none;
