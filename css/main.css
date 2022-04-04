@@ -211,4 +211,27 @@ footer {
     body {
         font-size: 1.8rem;
     }
+
+    #nav-btn {
+        display: none;
+    }
+
+    #main-nav-container {
+        position: relative;
+    }
+
+    #main-nav {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        left: 300px;
+        right: 250px;
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+
+    nav ul li a:hover {
+        background-color: black;
+        border-bottom: 5px solid white;
+    }
 }
