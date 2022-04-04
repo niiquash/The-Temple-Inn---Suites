@@ -204,6 +204,12 @@ footer {
     body {
         font-size: 1.5rem;
     }
+
+    /* ---------footer-------- */
+    .main-footer-container {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
 }
 
 /* -------------------- Large Screen -------------------- */
@@ -212,6 +218,7 @@ footer {
         font-size: 1.8rem;
     }
 
+    /* -------------Main Menu------------ */
     #nav-btn {
         display: none;
     }
@@ -233,5 +240,18 @@ footer {
     nav ul li a:hover {
         background-color: black;
         border-bottom: 5px solid white;
+    }
+
+    /* ----------------Footer---------------- */
+    .main-footer-container {
+        display: flex;
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .footer-logo-container {
+        margin: 0;
     }
 }
