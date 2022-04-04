@@ -147,6 +147,20 @@ picture img {
     background-color: rgb(3, 104, 3);
 
 }
+
+/* --------------------Weather----------------------- */
+.weather-header {
+    font-weight: lighter; 
+    text-align: center;
+    margin: 3vh;
+}
+
+.weather-card {
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+}
+
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
     height: 125px;

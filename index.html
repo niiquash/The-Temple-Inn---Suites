@@ -62,10 +62,10 @@
             <!-- Banner -->
             <div class="page-banner homepage-banner">
                 <picture>
-                    <source srcset="images/hero/plaza-hotel-small-600.jpg" media="(max-width: 600px)">
-                    <source srcset="images/hero/plaza-hotel-medium-700.jpg" media="(max-width: 949px)">
-                    <source srcset="images/hero/plaza-hotel-large-800.jpg" media="(min-width: 950px)">
-                    <img src="images/hero/plaza-hotel-small-600.jpg" alt="Plaza hotel at temple square in salt lake city">
+                    <source srcset="images/home/hero/plaza-hotel-small-600.jpg" media="(max-width: 600px)">
+                    <source srcset="images/home/hero/plaza-hotel-medium-700.jpg" media="(max-width: 949px)">
+                    <source srcset="images/home/hero/plaza-hotel-large-800.jpg" media="(min-width: 950px)">
+                    <img src="images/home/hero/plaza-hotel-small-600.jpg" alt="Plaza hotel at temple square in salt lake city">
                 </picture>
 
                 <div class="call-to-action">
@@ -76,9 +76,17 @@
 
             <!-- Weather -->
             <div class="page-weather">
-                <h1 class="weather-header">
-                    Weather
-                </h1>
+                <h2 class="weather-header">Weather Summary</h2>
+                <div class="weather-card">
+                    <div class="today-weather">
+                        <p>Today's weather:</p>
+                        <p>Temperature: <span id="weather-temp"></span>&deg;F</p>
+                        <p>Wind Speed: <span id="wind-speed"></span>km/h</p>
+                        <p>Wind Chill: <span id="wind-chill"></span></p>
+                        <figure><img src="" alt="" id="weather-icon"></figure>
+                        <figcaption></figcaption>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
