@@ -156,9 +156,21 @@ picture img {
 }
 
 .weather-card {
-    margin: 5px;
-    padding: 10px;
-    box-shadow: 0 0 5px black;
+    padding: 20px;
+    background: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+    color: white;
+    text-align: center;
+}
+
+.today-weather {
+    margin-bottom: 15px;
+}
+
+table, td, tr, th {
+    border:1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
 }
 
 /* --------------------------- Footer ------------------------- */
