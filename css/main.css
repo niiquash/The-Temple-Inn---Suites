@@ -197,6 +197,49 @@ th {
   flex-direction: column;
 }
 
+/* ----------------Contact Us------------------- */
+.contact-us-section {
+    box-shadow: 0 0 5px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-us-header h2 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.contact-us-header p {
+    line-height: 2rem;
+}
+
+.contact-us-form {
+    margin-top: 20px;
+}
+
+.contact-us-form label.top,
+.contact-us-form label {
+    display: block;
+    padding-top: 1rem;
+}
+
+.contact-us-form label.top input,
+.contact-us-form label textarea.top {
+    display: block;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: .75rem;
+    min-width: 50%;    
+}
+
+.contact-us-form label.top input:required {
+	border-bottom: red solid 3px;
+}
+
+.contact-us-form label.top input:required:valid {
+	border-bottom: green solid 3px;
+}
+
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
   height: 125px;
