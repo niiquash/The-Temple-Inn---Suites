@@ -1,299 +1,320 @@
 /* ----------------------------------------------Small CSS---------------------------------- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
 }
 
 /* ------------------------Logo , Social Media, Menu Button-------------------------- */
 .logo-social-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    min-width: 100%;
-    background-color: rgb(0, 0, 0);
-    margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  min-width: 100%;
+  background-color: rgb(0, 0, 0);
+  margin-right: 15px;
 }
 
 .logo {
-    width: 25%;
-    border: 2px solid white;
-    border-radius: 10px;
+  width: 25%;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .fab {
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 button#nav-btn {
-    border: 2px solid white;
-    background: transparent;
-    color: white;
-    width: 3rem;
-    height: 3rem;
-    cursor: pointer;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
 }
 
 .social-nav-btns {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
 }
 
 /* -----------------------------------Site Name----------------------------------- */
 .site-name-container {
-    background-color: rgba(209, 204, 204, 0.9);
-    padding: 10px;
+  background-color: rgba(209, 204, 204, 0.9);
+  padding: 10px;
 }
 
 .site-name {
-    text-align: center;
-    font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /* --------------Date------------ */
 #today-date {
-    text-align: center;
-    font-weight: bold;
-    border: 2px double grey;
-    margin: 0;
+  text-align: center;
+  font-weight: bold;
+  border: 2px double grey;
+  margin: 0;
 }
 /* --------------------------- Main Navigation (Menu) ------------------------- */
 nav ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-    font-size: 1.2rem;
-    display: block;
-    padding: .6rem 1.5vw;
-    border-top: 1px solid rgba(0,0,0,0.3);
-    transition: all 0.2s ease-out;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.6rem 1.5vw;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-out;
 }
 
 nav ul li a:hover {
-    background-color: rgb(60, 110, 79);
+  background-color: rgb(60, 110, 79);
 }
 
 nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul {
-    display: none;
+  display: none;
 }
 
 nav ul.open {
-    display: block;
+  display: block;
 }
 
 nav {
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 /* ------------------------Page Banner------------------------- */
 .page-banner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 picture {
-    width: 100%;
+  width: 100%;
 }
 
 picture img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .call-to-action {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background: linear-gradient(360deg, rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,0,0,0));
-    padding: 30px;
-    line-height: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0)
+  );
+  padding: 30px;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .call-to-action h2 {
-    color: white;
+  color: white;
 }
 
 .call-to-action a {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(9, 82, 9);
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding: 5px 10px;
-    border-radius: 5px;
-    line-height: normal;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(9, 82, 9);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  line-height: normal;
 }
 
 .call-to-action a:hover {
-    background-color: rgb(3, 104, 3);
-
+  background-color: rgb(3, 104, 3);
 }
 
 /* --------------------Weather----------------------- */
 .weather-header,
 .temple-header {
-    font-weight: lighter; 
-    text-align: center;
-    margin: 3vh;
-    margin-top: 6vh;
+  font-weight: lighter;
+  text-align: center;
+  margin: 3vh;
+  margin-top: 6vh;
 }
 
 .weather-card {
-    padding: 20px;
-    background: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
-    color: white;
-    text-align: center;
+  padding: 20px;
+  background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  color: white;
+  text-align: center;
 }
 
 .today-weather {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-table, td, tr, th {
-    border:1px solid white;
-    border-collapse: collapse;
-    padding: 5px;
-    margin: auto;
+table,
+td,
+tr,
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: auto;
 }
 
 /* ---------------Temple Cards------------ */
 .temple-1 p,
 .temple-2 p,
 .temple-3 p {
-    padding: 20px;
+  padding: 10px;
 }
 
 .temple-1,
 .temple-2,
 .temple-3 {
-    border: 1px solid black;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
-
-
-
 
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
-    height: 125px;
-    width: 125px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .footer-logo-container img {
-    width: 100%;
-    height: 100%;
-    border: 2px solid white;
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .footer-email-number-map a {
-    color: white;
+  color: white;
 }
 
 footer {
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 5px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 5px;
 }
 
 /* -------------------- Medium Screen -------------------- */
-@media only screen and (min-width: 600px){
-    body {
-        font-size: 1.5rem;
-    }
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 1.5rem;
+  }
 
-    /* ---------footer-------- */
-    .main-footer-container {
-        font-size: 1.2rem;
-        padding: 10px;
-    }
+  /* ---------footer-------- */
+  .main-footer-container {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  
 }
 
 /* -------------------- Large Screen -------------------- */
-@media only screen and (min-width: 950px){
-    body {
-        font-size: 1.8rem;
-    }
+@media only screen and (min-width: 950px) {
+  body {
+    font-size: 1.8rem;
+  }
 
-    /* -------------Main Menu------------ */
-    #nav-btn {
-        display: none;
-    }
+  /* -------------Main Menu------------ */
+  #nav-btn {
+    display: none;
+  }
 
-    #main-nav-container {
-        position: relative;
-    }
+  #main-nav-container {
+    position: relative;
+  }
 
-    #main-nav {
-        display: flex;
-        position: absolute;
-        top: 50px;
-        left: 300px;
-        right: 250px;
-        padding: 0 10px;
-        justify-content: space-around;
-    }
+  #main-nav {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    right: 250px;
+    padding: 0 10px;
+    justify-content: space-around;
+  }
 
-    nav ul li a:hover {
-        background-color: black;
-        border-bottom: 5px solid white;
-    }
+  nav ul li a:hover {
+    background-color: black;
+    border-bottom: 5px solid white;
+  }
 
-    /* -----------------Main Content----------------- */
-    main {
-        margin: 0 150px;
-    }
+  /* -----------------Main Content----------------- */
+  main {
+    margin: 0 120px;
+  }
 
-    .call-to-action {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        background: linear-gradient(360deg, rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,0,0,0));
-        padding: 90px;
-        line-height: 5rem;
-        font-size: 2.5rem;
-    }
+  .call-to-action {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    );
+    padding: 90px;
+    line-height: 5rem;
+    font-size: 2.5rem;
+  }
 
-    .call-to-action a {
-        font-size: 2.5rem;
+  .call-to-action a {
+    font-size: 2.5rem;
+  }
 
-    }
+  /* ----------Temple Area----------- */
 
-    /* ----------------Footer---------------- */
-    .main-footer-container {
-        display: flex;
-        font-size: 1.2rem;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px;
-    }
+  .temple-1,
+  .temple-2,
+  .temple-3 {
+      max-width: 25vw;
+  }
+  .temple-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
 
-    .footer-logo-container {
-        margin: 0;
-    }
+  /* ----------------Footer---------------- */
+  .main-footer-container {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .footer-logo-container {
+    margin: 0;
+  }
 }
