@@ -270,7 +270,7 @@ footer {
 
   /* -----------------Main Content----------------- */
   main {
-    margin: 0 120px;
+    /* margin: 0 120px; */
   }
 
   .call-to-action {
@@ -290,6 +290,14 @@ footer {
 
   .call-to-action a {
     font-size: 2.5rem;
+  }
+
+  /* ------------------Weather Card---------- */
+  .weather-card {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px;
   }
 
   /* ----------Temple Area----------- */
