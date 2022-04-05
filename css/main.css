@@ -149,7 +149,8 @@ picture img {
 }
 
 /* --------------------Weather----------------------- */
-.weather-header {
+.weather-header,
+.temple-header {
     font-weight: lighter; 
     text-align: center;
     margin: 3vh;
@@ -173,6 +174,26 @@ table, td, tr, th {
     padding: 5px;
     margin: auto;
 }
+
+/* ---------------Temple Cards------------ */
+.temple-1 p,
+.temple-2 p,
+.temple-3 p {
+    padding: 20px;
+}
+
+.temple-1,
+.temple-2,
+.temple-3 {
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
 
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
@@ -245,7 +266,7 @@ footer {
 
     /* -----------------Main Content----------------- */
     main {
-        margin: 0 200px;
+        margin: 0 150px;
     }
 
     .call-to-action {
@@ -256,6 +277,11 @@ footer {
         padding: 90px;
         line-height: 5rem;
         font-size: 2.5rem;
+    }
+
+    .call-to-action a {
+        font-size: 2.5rem;
+
     }
 
     /* ----------------Footer---------------- */
