@@ -555,7 +555,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items:flex-start;
   }
 
   .room-type-container {
