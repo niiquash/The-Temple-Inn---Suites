@@ -475,6 +475,14 @@ legend {
 
 }
 
+/* -------------Missionaries-------------- */
+.room-type-container-ft-missionaries .room-type-1 img,
+.room-type-container-ft-missionaries .room-type-2 img,
+.room-type-container-ft-missionaries .room-type-3 img,
+.room-type-container-ft-missionaries .room-type-4 img {
+  width: 100%;
+}
+
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
   height: 125px;
@@ -569,7 +577,7 @@ footer {
     width: 100%;
   }
 
-  .contact-us-form-missionaries form{
+  .contact-us-form-missionaries form {
     width: 50%;
   }
 }
