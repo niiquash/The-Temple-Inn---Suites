@@ -388,7 +388,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: scroll;
-    border: 1px solid black;
     width: 100%;
     text-align: center;
   }
