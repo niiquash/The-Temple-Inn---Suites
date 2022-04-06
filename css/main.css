@@ -67,6 +67,7 @@ button#nav-btn {
   border: 2px double grey;
   margin: 0;
 }
+
 /* --------------------------- Main Navigation (Menu) ------------------------- */
 nav ul li a {
   text-decoration: none;
@@ -119,12 +120,10 @@ picture img {
   width: 100%;
   position: absolute;
   bottom: 0;
-  background: linear-gradient(
-    360deg,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0)
-  );
+  background: linear-gradient(360deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0));
   padding: 30px;
   line-height: 3rem;
   display: flex;
@@ -206,6 +205,8 @@ th {
   box-shadow: 0 0 5px black;
   margin: 10px;
   padding: 10px;
+  /* width: 100%; */
+  font-size: 1.5rem;
 }
 
 .contact-us-header h2 {
@@ -273,12 +274,10 @@ th {
   padding: 50px 10px;
   text-align: center;
   color: white;
-  background: linear-gradient(
-    360deg,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0)
-  );
+  background: linear-gradient(360deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0));
 }
 
 .temple-directory-area {
@@ -464,6 +463,18 @@ legend {
   background-color: grey;
 }
 
+/* ------------------------------------Sub Pages------------------- */
+/* ------------------------Reception---------------- */
+.reception-image {
+  margin-top: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+.reception-image img {
+  width: 100%;
+
+}
+
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
   height: 125px;
@@ -507,7 +518,7 @@ footer {
 
 
   /* ---------------------- Directory - gridView ------------------------------ */
-  div.cards  {
+  div.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: scroll;
@@ -516,7 +527,7 @@ footer {
   }
 
 
-/* ------Services---------- */
+  /* ------Services---------- */
   .services-list-container {
     font-size: 1.5rem;
   }
@@ -540,6 +551,25 @@ footer {
   }
 
   .room-type-container {
+    width: 50%;
+  }
+
+  /* ----------------------missionaries sub page----------------- */
+
+  .room-type-container-ft-missionaries {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .room-type-1 img,
+  .room-type-2 img,
+  .room-type-3 img,
+  .room-type-4 img {
+    width: 100%;
+  }
+
+  .contact-us-form-missionaries form{
     width: 50%;
   }
 }
@@ -583,12 +613,10 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(
-      360deg,
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0)
-    );
+    background: linear-gradient(360deg,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0));
     padding: 90px;
     line-height: 5rem;
     font-size: 2.5rem;
@@ -649,6 +677,10 @@ footer {
   .room-type-container {
     width: 50%;
   }
+
+  /* ---------------------Sub Pages----------------- */
+  /* ---------------------Reception----------------- */
+
 
   /* ----------------Footer---------------- */
   .main-footer-container {
