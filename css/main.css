@@ -199,62 +199,143 @@ th {
 
 /* ----------------Contact Us------------------- */
 .contact-us-section {
-    box-shadow: 0 0 5px black;
-    margin: 10px;
-    padding: 10px;
+  box-shadow: 0 0 5px black;
+  margin: 10px;
+  padding: 10px;
 }
 
 .contact-us-header h2 {
-    font-weight: normal;
-    margin-bottom: 10px;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 
 .contact-us-header p {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 .contact-us-form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .contact-us-form label.top,
 .contact-us-form label {
-    display: block;
-    padding-top: 1rem;
+  display: block;
+  padding-top: 1rem;
 }
 
 .contact-us-form label.top input,
 .contact-us-form label textarea.top {
-    display: block;
-    border: 1px solid black;
-    border-radius: 3px;
-    padding: .75rem;
-    min-width: 70%;    
+  display: block;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 0.75rem;
+  min-width: 70%;
 }
 
 .contact-us-form label.top input:required {
-	border-bottom: red solid 3px;
+  border-bottom: red solid 3px;
 }
 
 .contact-us-form label.top input:required:valid {
-	border-bottom: green solid 3px;
+  border-bottom: green solid 3px;
 }
 
 .contact-us-form input.message-submit-btn {
-    border: none;
-	background-color: rgb(0, 0, 0);
-	color: white;
-	border-radius: 3px;
-	padding: .75rem 1.5rem;
-	margin-top: 10px;
-	width: 50%;
-	/* max-width: 20rem; */
-    transition: all 0.2s ease-out;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 3px;
+  padding: 0.75rem 1.5rem;
+  margin-top: 10px;
+  width: 50%;
+  /* max-width: 20rem; */
+  transition: all 0.2s ease-out;
 }
 
 .contact-us-form input.message-submit-btn:hover {
-    font-weight: bold;
-    background-color: rgb(48, 46, 46);
+  font-weight: bold;
+  background-color: rgb(48, 46, 46);
+}
+
+/* ----------------Temple Directory------------------- */
+.main-content-container {
+  position: relative;
+}
+
+.temples-directory-banner-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 50px 10px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.temple-directory-area {
+  margin-top: 25px;
+}
+
+.temple-directory-btns {
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#directory-list-view-btn,
+#directory-card-view-btn {
+  border: 1px solid white;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.temple-directory-btns button:hover {
+  box-shadow: 0 0 5px black;
+}
+
+/* ---------------------- Directory - listView ------------------------------ */
+div.list section {
+  margin: 0 0px;
+  padding: 10px 20px;
+}
+
+div.list section img {
+  display: none;
+}
+
+div.list section:nth-child(odd) {
+  background-color: rgba(3, 13, 99, 0.2);
+}
+
+div.list section:nth-child(even) {
+  background-color: rgba(165, 167, 184, 0.2);
+}
+
+/* ---------------------- Directory - gridView ------------------------------ */
+div.cards {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+div.cards section {
+  margin: 10px 10px;
+  padding: 10px;
+  text-align: center;
+  max-width: 100%;
+  box-shadow: 0 0 5px black;
+}
+
+div.cards section img {
+  width: 100%;
 }
 
 /* --------------------------- Footer ------------------------- */
@@ -286,7 +367,26 @@ footer {
 /* -------------------- Medium Screen -------------------- */
 @media only screen and (min-width: 600px) {
   body {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* ---------------------- Directory - listView ------------------------------ */
+  div.list section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 20px;
+  }
+
+
+  /* ---------------------- Directory - gridView ------------------------------ */
+  div.cards  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: scroll;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
   }
 
   /* ---------footer-------- */
@@ -294,8 +394,6 @@ footer {
     font-size: 1.2rem;
     padding: 10px;
   }
-
-  
 }
 
 /* -------------------- Large Screen -------------------- */
@@ -354,10 +452,10 @@ footer {
 
   /* ------------------Weather Card---------- */
   .weather-card {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
   }
 
   /* ----------Temple Area----------- */
@@ -365,17 +463,27 @@ footer {
   .temple-1,
   .temple-2,
   .temple-3 {
-      max-width: 25vw;
-      background-color: white;
-      border: none;
+    max-width: 25vw;
+    background-color: white;
+    border: none;
   }
 
   .temple-items {
-      background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 20px;
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  /* ---------------------- Directory - gridView ------------------------------ */
+  div.cards {
+    font-size: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  div.list {
+    font-size: 1rem;
   }
 
   /* ----------------Footer---------------- */

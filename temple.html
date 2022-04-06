@@ -35,7 +35,7 @@
 
         <!-- Site Name -->
         <div class="site-name-container">
-            <h1 class="site-name">Temple</h1>
+            <h1 class="site-name">Temples Directory</h1>
         </div>
         
         <!-- Site date -->
@@ -61,12 +61,26 @@
     <!----------------------------------Main------------------------------------>
     <main>
         <div class="main-content-container">
-            <div class="page-banner homepage-banner">
+            <div class="page-banner temple-banner">
                 <picture>
                     <img src="images/temples/temple-collage.jpg" alt="Plaza hotel at temple square in salt lake city">
                 </picture>
             </div>
+            <div class="temples-directory-banner-caption">
+                <p>Browse this directory to find temples you'd like to visit today.</p>
+            </div>
         </div>
+
+        <!-- Directory -->
+        <main class="temple-directory-area" >
+            <div class="temple-directory-btns">
+                <button id="directory-list-view-btn"><span>&#9776;</span></button>
+                <button id="directory-card-view-btn"><span>&#9638;</span></button>
+            </div>
+            <div class="cards">
+            </div>
+    
+        </main>
     </main>
     
     <!--------------------------------Footer------------------------------------>
@@ -92,5 +106,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>

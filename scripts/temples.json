@@ -1,0 +1,74 @@
+{
+    "temples": [
+        {
+            "name": "Birmingham Alabama Temple",
+            "address": "1927 Mount Olive Blvd Gardendale AL 35071 United States",
+            "phone": "(1) 205-631-3444",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/9c/56/9c564cd3769643416a82118654302bdb9f30ca0e/birmingham_alabama_temple_lds.jpeg"
+        },
+        {
+            "name": "Cardston Alberta Temple",
+            "address": "348 3rd St W Cardston AB T0K 0K0 Canada",
+            "phone": "(1) 403-653-3552",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/c4/c7/c4c78658f898ffd5c68e295f1afb3cc324ee54aa/cardston_alberta_temple_lds.jpeg"
+        },
+        {
+            "name": "Cedar City Utah Temple",
+            "address": "280 South Cove Dr Cedar City UT 84720 United States",
+            "phone": "(1) 435-572-4150",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/b2/89/b2891eb1787414ec6995a32c42d03981732c2d6a/cedar_city_utah_temple_exterior.jpeg"
+        },
+        {
+            "name": "Chicago Illinois Temple",
+            "address": "4151 W Lake Ave Glenview IL 60025-1240 United States",
+            "phone": "(1) 847-299-6500",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/36/97/36971f3cc51350f4eb75eb3d310f798ae783f556/chicago_temple_lds.jpeg"
+        },
+        {
+            "name": "Detroit Michigan Temple",
+            "address": "37425 Woodward Ave Bloomfield Hills MI 48304 United States",
+            "phone": "(1) 248-593-0690",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/6e/16/6e16c01b8b646faeefbef94393746054d090c717/detroit_temple_lds.jpeg"
+        },
+        {
+            "name": "Gilbert Arizona Temple",
+            "address": "3301 S Greenfield Rd Gilbert AZ 85297 United States",
+            "phone": "(1) 480-822-5000",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/1a/9b/1a9b4d17fab94f3ddfc0504cbe9bfb16ef2b3186/gilbert_arizona_temple.jpeg"
+        },
+        {
+            "name": "Indianapolis Indiana Temple",
+            "address": "11565 Temple Dr Carmel IN 46032-8859 United States",
+            "phone": "(1) 317-993-3800",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/63/f2/63f214e9256712720a12352ee0032ddc9fc0fd04/indianapolis_indiana_temple.jpeg"
+        },
+        {
+            "name": "Las Vegas Nevada Temple",
+            "address": "827 Temple View Dr Las Vegas NV 89110-2920 United States",
+            "phone": "(1) 702-452-5011",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/a2/87/a2876cf93e9b9908d223e09f4be65ae23cead8d4/las_vegas_temple_lds.jpg"
+        },
+        {
+            "name": "Logan Utah Temple",
+            "address": "175 N 300 E Logan UT 84321-4720 United States",
+            "phone": "(1) 435-752-3611",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/07/66/0766f32cfa9c69e9c838361d874aeb819983139a/logan_temple_lds.jpeg"
+        },
+        {
+            "name": "Palmyra New York Temples",
+            "address": "2720 Temple Rd Palmyra NY 14522-9573 United States",
+            "phone": "(1) 315-597-6001",
+            "website": "https://www.churchofjesuschrist.org/temples/details/",
+            "imageurl": "https://assets.ldscdn.org/5c/5a/5c5a645c1e4912f8373588fc67b1d65d70055a18/palmyra_temple_lds.jpeg"
+        }
+    ]
+}
