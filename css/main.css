@@ -338,6 +338,10 @@ div.cards section img {
   width: 100%;
 }
 
+div.cards section a {
+  font-size: .8rem;
+}
+
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
   height: 125px;
