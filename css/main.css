@@ -346,6 +346,75 @@ div.cards section a {
   font-size: .8rem;
 }
 
+
+/* ---------------------------Reservation Page--------------------------- */
+.reservations-form-container {
+  background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  padding: 10px;
+  color: white;
+}
+
+.reservations-form-header h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+fieldset {
+  margin: 10px;
+}
+
+legend {
+  padding: 0 5px;
+}
+
+.reservation-form .top {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.reservation-form .top input {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.reservation-form .sbs {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.reservation-submit-btn {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+
+.reservation-submit-btn:hover {
+  font-weight: bold;
+}
+
+.room-type-container {
+  width: 100%;
+}
+
+.room-type-container img {
+  width: 100%;
+}
+
+.room-type-1,
+.room-type-2,
+.room-type-3,
+.room-type-4 {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
   height: 125px;
@@ -371,6 +440,7 @@ footer {
   color: white;
   padding: 5px;
 }
+
 
 /* -------------------- Medium Screen -------------------- */
 @media only screen and (min-width: 600px) {
@@ -400,6 +470,17 @@ footer {
   .main-footer-container {
     font-size: 1.2rem;
     padding: 10px;
+  }
+
+  .reservation-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .room-type-container {
+    width: 50%;
   }
 }
 
@@ -491,6 +572,22 @@ footer {
 
   div.list {
     font-size: 1rem;
+  }
+
+  /* ---------------------------Reservations Page---------------- */
+  .reservations-form-container {
+    font-size: 1.5rem;
+  }
+
+  .reservation-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .room-type-container {
+    width: 50%;
   }
 
   /* ----------------Footer---------------- */

@@ -63,11 +63,71 @@
         <div class="main-content-container">
             <div class="page-banner homepage-banner">
                 <picture>
-                    <source srcset="images/hero/plaza-hotel-small-600.jpg" media="(max-width: 600px)">
-                    <source srcset="images/hero/plaza-hotel-medium-700.jpg" media="(max-width: 949px)">
-                    <source srcset="images/hero/plaza-hotel-large-800.jpg" media="(min-width: 950px)">
-                    <img src="images/hero/plaza-hotel-small-600.jpg" alt="Plaza hotel at temple square in salt lake city">
+                    <img src="images/reservation/reservation-original-utilise.jpg" alt="">
                 </picture>
+            </div>
+
+            <!-- reservations form area -->
+            <div class="reservations-form-container">
+                <div class="reservations-form-header">
+                    <h2>Make a Reservation Today</h2>
+                </div>
+                <div class="reservation-form">
+                    <form method="get" action="thankyou.html">
+                        <fieldset>
+                            <legend>Room Info</legend>
+                            <label class="top">Location* <input type="text" name="location" pattern="([A-Za-z])*" placeholder="Rexburg" required></label>
+                            <label class="top">Date <input type="date" name="date" required></label>
+                            <label class="top">Number of rooms* <input type="number" name="number" required></label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Room Type* </legend>
+                            <label class="sbs"><input type="radio" name="room-type">Single Room</label>
+                            <label class="sbs"><input type="radio" name="room-type">Twin Room</label>
+                            <label class="sbs"><input type="radio" name="room-type">Double Room</label>
+                            <label class="sbs"><input type="radio" name="room-type">King Room</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Personal Info</legend>
+                            <label class="top">First Name* <input type="text" name="fname" required></label>
+                            <label class="top">Last Name* <input type="text" name="lname" required></label>
+                            <label class="top">Mobile* <input type="number" name="mobile" placeholder="1234567890" required></label>
+                            <label class="top">Email* <input type="email" name="position" placeholder="abc@somewhere.com" required></label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Comments / Special Accomodations</legend>
+                            <label><textarea name="comments" id="comments-section" placeholder="Any additional information..."></textarea></textarea> </label>
+                        </fieldset>
+
+                        <input type="submit" value="Reserve Now" class="reservation-submit-btn">
+                    </form>
+
+                    <!-- Room Types -->
+                    <div class="room-type-container">
+                        <div class="room-type-header">
+                            <h2>Room Types</h2>
+                        </div>
+                        <div class="room-type-1">
+                            <img src="images/reservation/single-room-500.jpg" alt="Single Room">
+                            <p>Single Room</p>
+                        </div>
+                        <div class="room-type-2">
+                            <img src="images/reservation/twin-room-500.jpg" alt="Twin Bedroom">
+                            <p>Twin Room</p>
+                        </div>
+                        <div class="room-type-3">
+                            <img src="images/reservation/double-room-500.jpg" alt="Queen Bedroom">
+                            <p>Double Room</p>
+                        </div>
+                        <div class="room-type-4">
+                            <img src="images/reservation/king-room-500.jpg" alt="King Bedroom">
+                            <p>King Room</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
