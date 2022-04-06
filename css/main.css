@@ -415,6 +415,55 @@ legend {
   border: 1px solid black;
   margin-bottom: 10px;
 }
+
+/* ------------------Services Page--------------------- */
+.services-header h2 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.services-list-container {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgb(58, 56, 56);
+  background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  color: white;
+}
+
+.services-list-container p {
+  margin-bottom: 10px;
+}
+
+.sub-page-header h2 {
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+}
+
+.sub-page-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sub-page-container {
+  margin-bottom: 40px;
+}
+
+.reception-page-link a,
+.missionary-page-link a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.reception-page-link a:hover,
+.missionary-page-link a:hover {
+  background-color: grey;
+}
+
 /* --------------------------- Footer ------------------------- */
 .footer-logo-container {
   height: 125px;
@@ -464,6 +513,17 @@ footer {
     overflow: scroll;
     width: 100%;
     text-align: center;
+  }
+
+
+/* ------Services---------- */
+  .services-list-container {
+    font-size: 1.5rem;
+  }
+
+  .services-list-container p,
+  .services-list-container h3 {
+    margin: 30px;
   }
 
   /* ---------footer-------- */
